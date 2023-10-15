@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Atividade 3 Formulario</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+  <h1 id="title-form">Ficha Cadastral</h1>
+</header>
+<main id="container">
+  <form action="#" method="post">
+    <fieldset>
+      <div class="box-data">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+      </div>
+      <div class="box-data">
+        <label for="rg">RG:</label>
+        <input type="text" name="rg" id="rg">
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf">
+      </div>
+      <div class="box-data">
+        <label for="end">Endereço</label>
+        <input type="text" name="end" id="end">
+      </div>
+      <div class="box-data">
+        <label for="genero">Sexo:</label>
+        <select name="genero" id="genero">
+          <option value="" selected>Informe sexo</option>
+          <option value="m">Masculino</option>
+          <option value="f">Feminino</option>
+        </select>
+        <label for="datNasc">Data Nascimento:</label>
+        <input type="text" name="datNasc" id="datNasc">
+      </div>
+      <div class="box-data">
+        <h4>Situação Civil</h4>
+        <label for="solteiro">Solteriro(a)</label>
+        <input type="radio" name="solteiro" id="solteiro">
+        <label for="casado">Casado(a)</label>
+        <input type="radio" name="casado" id="casado">
+        <label for="viuvo">Viuvo(a)</label>
+        <input type="radio" name="viuvo" id="viuvo">
+      </div>
+    </fieldset>
+    <button type="reset" id="reset">Limpar Dados</button>
+  </form>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
